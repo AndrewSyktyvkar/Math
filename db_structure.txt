@@ -29,6 +29,7 @@ tasks:
 	task_id: int
 	task_name: text
 	task_text: text
+	task_rate: int
 	subcategory_id: int
 	is_real: bool
 
@@ -37,6 +38,7 @@ tests:
 	test_description: text
 	test_date: date
 	test_description: text
+	test_rate: int
 	is_real: bool
 	
 tasks_in_tests:
