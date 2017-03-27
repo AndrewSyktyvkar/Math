@@ -1,0 +1,8 @@
+Сайт проекта: 
+http://tinymce.moxiecode.com/
+
+Подробное руководство по редактору:
+http://tinymce.moxiecode.com/wiki.php/Reference
+
+Скачать дополнительные языки:
+http://tinymce.moxiecode.com/i18n/index.php?ctrl=lang&act=download&pr_id=1
