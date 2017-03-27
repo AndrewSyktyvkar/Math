@@ -21,7 +21,7 @@
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="/math/stylesheets/bootstrap/js/ie-emulation-modes-warning.js"></script>
 
-    <!--<script src="jquery-3.1.0.min.js"></script>
+    <script src="/math/scripts/jquery-3.2.0.min.js"></script>
 
     <script type="text/javascript">
       function try_register() {
@@ -40,7 +40,7 @@
                 });
           
       }
-    </script>-->
+    </script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
