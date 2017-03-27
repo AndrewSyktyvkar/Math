@@ -23,24 +23,7 @@
 
     <script src="/math/scripts/jquery-3.2.0.min.js"></script>
 
-    <script type="text/javascript">
-      function try_register() {
-        var form_email = document.forms["reg_form"]["email"].value;
-        var form_passwd = document.forms["reg_form"]["passwd"].value;
-        var form_invite = document.forms["reg_form"]["invite"].value;
-        alerts.innerHTML = "";
-        alerts.style.display = "none";
-        $.post("try_register.php", { email:form_email, passwd:form_passwd, invite:form_invite },  
-                function(data) {
-                  if (data != "OK") {
-                    alerts.style.display = "";
-                    alerts.innerHTML = data;
-                  } else 
-                    window.location.href = "index.php";
-                });
-          
-      }
-    </script>
+    <script src="/math/scripts/register_by_invite.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -70,7 +53,7 @@
               <div class="row" style="margin-top:10%">
                 <div class="col-lg-offset-4 col-md-offset-4 col-sm-offset-4 col-xs-offset-5">
                   <button type="button" name="submit" class="btn btn-success btn-lg" 
-                          onclick="try_register()">Submit</button>
+                          onclick="try_register_by_invite()">Submit</button>
                 </div>
               </div>
 
