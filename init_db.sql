@@ -5,7 +5,8 @@ USE math;
 create table users ( 
     user_id int, 
     user_name text, 
-    user_passwort_hash text
+    user_passwort_hash text,
+    access_token text
 );
 
 create table invites (
