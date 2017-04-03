@@ -1,0 +1,351 @@
+<xml>
+    <subject>
+	    <subject_id> 1 </subject_id>
+	    <subject_name> math (b) </subject_name>
+         <subject_id> 2 </subject_id>
+	    <subject_name> math (p) </subject_name>
+	</subject>
+
+    <categorie>
+	    <category_id> 1 </category_id>
+	    <category_name> Действия с рациональными числами  </category_name>
+	    <subject_id> 1 </subject_id>
+    </categorie>
+    
+    <subcategorie>
+	    <subcategory_id> 1 </subcategory_id>
+	    <subcategory_name> Совместные действия </subcategory_name>
+	    <subcategory_id> 1 </subcategory_id> 	
+    </subcategorie>
+    
+    <task>
+	    <task_id> 2000  </task_id> 
+	    <task_name> Действия с рациональными числами   </task_name>
+	    <task_text> 
+            <html>
+            <p align="center"> Найдите значение выражения:</p>
+                \[\begin{matrix}
+                \ ({{3}\over{5}} + {{8}\over{9}}) * 90 \\
+                \end{matrix} \]
+            </html>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 1 </subcategory_id>
+        <is_real> bool  </is_real>
+    </task>
+
+    <solution>
+	    <solution_id> 2000 </solution_id>
+	    <answer> 134 </answer>
+	    <task_id> 2000 </task_id>
+    </solution>
+
+    <task>
+	    <task_id> 2001  </task_id> 
+	    <task_name> Действия с рациональными числами  </task_name>
+	    <task_text> 
+            <html>
+            <p align="center"><p align="center"> Найдите значение выражения:</p></p>
+                \[\begin{matrix}
+                \ (-2*{{3}\over{4}} - {{3}\over{8}}) * 160 \\
+                \end{matrix} \]
+           </html>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 1 </subcategory_id>
+        <is_real> bool  </is_real>
+    </task>
+
+    <solution>
+	    <solution_id> 2001 </solution_id>
+	    <answer> -500 </answer>
+	    <task_id> 2001 </task_id>
+    </solution>
+
+    <task>
+	    <task_id> 2002  </task_id> 
+	    <task_name> Действия с рациональными числами  </task_name>
+	    <task_text> 
+            <html>
+            <p align="center"><p align="center"> Найдите значение выражения:</p></p>
+                \[\begin{matrix}
+                \ ({{3}\over{4}} + -2*{{3}\over{8}}) * 25.8 \\
+                \end{matrix} \]
+           </html>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 1 </subcategory_id>
+        <is_real> bool  </is_real>
+    </task>
+
+    <solution>
+	    <solution_id> 2002 </solution_id>
+	    <answer> 80,625 </answer>
+	    <task_id> 2002 </task_id>
+    </solution>
+
+
+    <task>
+	    <task_id> 2003  </task_id> 
+	    <task_name> Действия с рациональными числами  </task_name>
+	    <task_text> 
+            <html>
+            <p align="center"><p align="center"> Найдите значение выражения:</p></p>
+                \[\begin{matrix}
+                \ {{2}\over{5}} + {{1}\over{4}} + 2 \\
+                \end{matrix} \]
+           </html>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 1 </subcategory_id>
+        <is_real> bool  </is_real>
+    </task>
+
+    <solution>
+	    <solution_id> 2003 </solution_id>
+	    <answer> 2,65 </answer>
+	    <task_id> 2003 </task_id>
+    </solution>
+
+     <task>
+	    <task_id> 2004  </task_id> 
+	    <task_name> Действия с рациональными числами  </task_name>
+	    <task_text> 
+            <html>
+            <p align="center"><p align="center"> Найдите значение выражения:</p></p>
+                \[\begin{matrix}
+                \ {{0.42}} : {{3}\over{10}} \\
+                \end{matrix} \]
+           </html>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 1 </subcategory_id>
+        <is_real> bool  </is_real>
+    </task>
+
+    <solution>
+	    <solution_id> 2004 </solution_id>
+	    <answer> 1,4 </answer>
+	    <task_id> 2004 </task_id>
+    </solution>
+
+  <task>
+	    <task_id> 2005  </task_id> 
+	    <task_name> Про­стей­шие текстовые задачи </task_name>
+	    <task_text> 
+            <html>
+            <p align="center"><p align="center"> В школе есть трех­мест­ные ту­ри­сти­че­ские па­лат­ки.
+             Какое наи­мень­шее число па­ла­ток нужно взять в поход, в ко­то­ром участ­ву­ет 20 че­ло­век?:</p></p>
+                
+           </html>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 2 </subcategory_id>
+        <is_real> bool  </is_real>
+  </task>
+
+    <solution>
+	    <solution_id> 2005 </solution_id>
+	    <answer> 7 </answer>
+	    <task_id> 2005 </task_id>
+    </solution>
+
+     <task>
+	    <task_id> 2006  </task_id> 
+	    <task_name> Про­стей­шие текстовые задачи </task_name>
+	    <task_text> 
+            <html>
+            <p align="center"><p align="center"> Ма­га­зин за­ку­па­ет цве­точ­ные горш­ки
+            по опто­вой цене 90 руб­лей за штуку и про­да­ет с на­цен­кой 20%. 
+            Какое наи­боль­шее число таких горш­ков можно ку­пить в этом ма­га­зи­не на 1100 руб­лей?:</p></p>
+                
+           </html>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 2 </subcategory_id>
+        <is_real> bool  </is_real>
+    </task>
+
+    <solution>
+	    <solution_id> 2006 </solution_id>
+	    <answer> 10 </answer>
+	    <task_id> 2006 </task_id>
+    </solution>
+
+      <task>
+	    <task_id> 2007 </task_id> 
+	    <task_name> Про­стей­шие текстовые задачи </task_name>
+	    <task_text> 
+            <html>
+            <p align="center"><p align="center"> В доме, в ко­то­ром живёт Женя, один подъ­езд.
+             На каж­дом этаже по во­семь квар­тир. Женя живёт в квар­ти­ре 87. На каком этаже живёт Женя?:</p></p>
+                
+           </html>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 2 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2007 </solution_id>
+	    <answer> 11 </answer>
+	    <task_id> 2007 </task_id>
+    </solution>
+
+    <task>
+	    <task_id> 2008 </task_id> 
+	    <task_name> Про­стей­шие текстовые задачи </task_name>
+	    <task_text> 
+            <html>
+            <p align="center"><p align="center"> Фут­бол­ка сто­и­ла 800 руб­лей.
+             После сни­же­ния цены она стала сто­ить 680 руб­лей. На сколь­ко про­цен­тов была сни­же­на цена на фут­бол­ку?:</p></p>
+                
+           </html>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 2 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2008 </solution_id>
+	    <answer> 15 </answer>
+	    <task_id> 2008 </task_id>
+    </solution>
+
+     <task>
+	    <task_id> 2009 </task_id> 
+	    <task_name> Про­стей­шие текстовые задачи </task_name>
+	    <task_text> 
+            <html>
+            <p align="center"><p align="center"> Кли­ент взял в банке кре­дит 12 000 руб­лей на год под 16%.
+             Он дол­жен по­га­шать кре­дит, внося в банк еже­ме­сяч­но оди­на­ко­вую сумму денег,
+             с тем чтобы через год вы­пла­тить всю сумму, взя­тую в кре­дит,
+             вме­сте с про­цен­та­ми. Сколь­ко руб­лей он дол­жен вно­сить в банк еже­ме­сяч­но?:</p></p>
+                
+           </html>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 2 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2009 </solution_id>
+	    <answer> 1160 </answer>
+	    <task_id> 2009 </task_id>
+    </solution>
+
+     <task>
+	    <task_id> 2010 </task_id> 
+	    <task_name> Действия со степенями </task_name>
+	    <task_text> 
+            <html>
+            <p align="center"><p align="center"> Най­ди­те про­из­ве­де­ние чисел :</p></p>
+                \[\begin{matrix}
+                \ {{7}*{10^5}} * {{1.3}*10^{-7}} \\
+                \end{matrix} \]   
+           </html>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 1 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2010 </solution_id>
+	    <answer> 0,091 </answer>
+	    <task_id> 2010 </task_id>
+    </solution>
+
+     <task>
+	    <task_id> 2011 </task_id> 
+	    <task_name> Действия со степенями </task_name>
+	    <task_text> 
+            <html>
+            <p align="center"><p align="center"> Най­ди­те зна­че­ние вы­ра­же­ния  :</p></p>
+                \[\begin{matrix}
+                \ {0.01^2} * 10^5 : 4^{-2} \\
+                \end{matrix} \]   
+           </html>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 1 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2011</solution_id>
+	    <answer> 160 </answer>
+	    <task_id> 2011 </task_id>
+    </solution>
+
+      <task>
+	    <task_id> 2012 </task_id> 
+	    <task_name> Действия со степенями </task_name>
+	    <task_text> 
+            <html>
+            <p align="center"><p align="center"> Най­ди­те зна­че­ние вы­ра­же­ния  :</p></p>
+                \[\begin{matrix}
+                \ {8^{0.76}} * 64^{0.12} \\
+                \end{matrix} \]   
+           </html>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 1 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2012</solution_id>
+	    <answer> 8 </answer>
+	    <task_id> 2012 </task_id>
+    </solution>
+
+       <task>
+	    <task_id> 2013 </task_id> 
+	    <task_name> Действия со степенями </task_name>
+	    <task_text> 
+            <html>
+            <p align="center"><p align="center"> Най­ди­те зна­че­ние про­из­ве­де­ния чисел   :</p></p>
+                \[\begin{matrix}
+                \ {6*{10^2}} * {1.2}*{10^{-4}} \\
+                \end{matrix} \]   
+           </html>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 1 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2013</solution_id>
+	    <answer> 0,072 </answer>
+	    <task_id> 2013 </task_id>
+    </solution>
+
+      <task>
+	    <task_id> 2014 </task_id> 
+	    <task_name> Действия со степенями </task_name>
+	    <task_text> 
+            <html>
+            <p align="center"><p align="center"> Най­ди­те зна­че­ние про­из­ве­де­ния чисел   :</p></p>
+                \[\begin{matrix}
+                \ ({-10^5}) + ({-10^4}) + ({-10^2}) \\
+                \end{matrix} \]   
+           </html>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 1 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2014</solution_id>
+	    <answer> -89900 </answer>
+	    <task_id> 2014 </task_id>
+    </solution>
+
+
+</xml>
