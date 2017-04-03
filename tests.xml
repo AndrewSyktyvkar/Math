@@ -1,0 +1,64 @@
+<xml>
+    <subject>
+	    <subject_id> 1 </subject_id>
+	    <subject_name> math (b) </subject_name>
+	</subject>
+
+    <categorie>
+	    <category_id> 1 </category_id>
+	    <category_name> Действия с рациональными числами  </category_name>
+	    <subject_id> 1 </subject_id>
+    </categorie>
+    
+    <subcategorie>
+	    <subcategory_id> 1 </subcategory_id>
+	    <subcategory_name> Совместные действия </subcategory_name>
+	    <subcategory_id> 1 </subcategory_id> 	
+    </subcategorie>
+
+    <test>
+        <test_id> 10 </test_id>
+	    <test_description> math (b) </test_description>
+	    <test_date> date  </test_date> 
+	    <test_description> text </test_description>
+	    <test_rate> 0 </test_rate>
+	    <is_real> bool  </is_real> 
+    </test>
+
+    <task>
+	    <task_id> 1000  </task_id> 
+	    <task_name> Найдите значение выражения  </task_name>
+	    <task_text> 
+            <html>
+            <p align="center">Найдите значение выражения:</p>
+                \[\begin{matrix}
+                \ ({{3}\over{5}} + {{8}\over{9}}) * 90 \\
+                \end{matrix} \]
+            </html>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 1 </subcategory_id>
+        <is_real> bool  </is_real>
+    </task>
+
+    <solution>
+	<solution_id> 1000 </solution_id>
+	<solution> 
+        <html>
+            <p align="center">Вы­пол­ним пре­об­ра­зо­ва­ния:</p>
+                \[\begin{matrix}
+                \ ({{3}\over{5}} + {{8}\over{9}}) * 90 & = & ({{3*9+8*5}\over{45}}) * 90 & = & ({{27+40}\over{45}}) * 90 & = & {{67*90}\over{45}} & = & {{67*2}} & = & {134}  \\
+                \end{matrix} \]
+        </html>
+    </solution>
+	<answer> 134 </answer>
+	<task_id> 1000 </task_id>
+    </solution>
+
+    <task_in_test>
+	    <test_id> 10 </test_id>
+	    <task_id> 1000  </task_id>
+	    <task_number> 1 </task_number>
+    </task_in_test>
+
+</xml>
