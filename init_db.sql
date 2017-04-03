@@ -9,6 +9,13 @@ create table users (
     access_token text
 );
 
+create table authors ( 
+    author_id int, 
+    author_name text, 
+    author_passwort_hash text,
+    access_token text
+);
+
 create table invites (
     invite_hash text
 );

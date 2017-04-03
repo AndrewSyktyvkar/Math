@@ -11,7 +11,7 @@
 		echo "Please input correct email<br>";
 		$error = true;
 	} else {
-		$query = "SELECT email from users where email='" . $email . "';"; 
+		$query = "SELECT author_name from authors where author_name='" . $email . "';"; 
 		$result = $mysqli->query($query);
 		if (!$result) {
 			fprintf($stderr, "Error message: %s\n", $mysqli->error);
@@ -39,12 +39,12 @@
 		if ($short || $nolower || $noupper || $nodigits) {
 			echo "Your password is too weak<br>";
 		}
-	}	
+	}
 	if (!$invite) {
 		echo "Invite is required";
 		$error = true;
 	} else {
-		$query = "SELECT * FROM invites where invite='" . $invite . "';";
+		$query = "SELECT * FROM invites where invite_hash='" . $invite . "';";
 		$result = $mysqli->query($query);
 		if (!$result) {
 			fprintf($stderr, "Error message: %s\n", $mysqli->error);
@@ -69,7 +69,7 @@
 		$query = "INSERT INTO users VALUES(0, '" . $email . "', '" . $passwd_hash . "');";
 		//echo $query . " ";
 		$result_insert = $mysqli->query($query);
-		$query = "UPDATE invites SET is_used=true where invite='". $invite . "'";
+		$query = "DELETE FROM invites WHERE invite_hash='". $invite . "'";
 		$result_update = $mysqli->query($query);
 		if (!$result_insert || !$result_update) {
 			$mysqli->rollback();
