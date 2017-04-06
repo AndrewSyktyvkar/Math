@@ -4,17 +4,17 @@
 	    <subject_name> math (b) </subject_name>
 	</subject>
 
-    <categorie>
+    <category>
 	    <category_id> 1 </category_id>
 	    <category_name> Действия с рациональными числами  </category_name>
 	    <subject_id> 1 </subject_id>
-    </categorie>
+    </category>
     
-    <subcategorie>
+    <subcategory>
 	    <subcategory_id> 1 </subcategory_id>
 	    <subcategory_name> Совместные действия </subcategory_name>
 	    <subcategory_id> 1 </subcategory_id> 	
-    </subcategorie>
+    </subcategory>
 
     <test>
         <test_id> 10 </test_id>
