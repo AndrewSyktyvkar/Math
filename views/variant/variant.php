@@ -8,10 +8,9 @@
 
     <!-- Bootstrap -->
     
-    <link href="/math/stylesheets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    
-	<script src="/math/stylesheets/bootstrap/js/bootstrap.min.js"></script>
-	<script src="/math/templates/navbar_template.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,10 +27,10 @@
 		
 		<div class="container-fluid" style="margin-top:4%">
 			<div class="row">
-				<div class="col-lg-offset-1 col-lg-8">
+				<div class="col-lg-offset-2 col-lg-6">
 					<div class="panel panel-default">
 						<div class="panel-heading">
-							<h3 class="panel-title">Название панели</h3>
+							<h2 class="panel-title">Вариант</h2>
 						</div>
 						<div class="panel-body">
 							
@@ -42,6 +41,13 @@
 					<?php 
 						require_once($_SERVER['DOCUMENT_ROOT'] . '/math/templates/right-panel-template.html');  
 					?>
+				</div>
+				<div class="col-lg-offset-2 col-lg-8 col-md-12 col-sm-12 col-xs-12" align="center">
+					<div class="well">
+						<?php 
+							require_once($_SERVER['DOCUMENT_ROOT'] . '/math/templates/copyrights.html');  
+						?>
+					</div>
 				</div>
 			</div>
 		</div>
