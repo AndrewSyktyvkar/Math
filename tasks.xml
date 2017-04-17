@@ -6,28 +6,67 @@
 	    <subject_name> math (p) </subject_name>
 	</subject>
 
-    <categorie>
+    <category>
 	    <category_id> 1 </category_id>
 	    <category_name> Действия с рациональными числами  </category_name>
 	    <subject_id> 1 </subject_id>
-    </categorie>
+    </category>
     
-    <subcategorie>
+    <subcategory>
 	    <subcategory_id> 1 </subcategory_id>
 	    <subcategory_name> Совместные действия </subcategory_name>
-	    <subcategory_id> 1 </subcategory_id> 	
-    </subcategorie>
+	   <category_id>1 </category_id>	
+    </subcategory>
+	
+
+    <category>
+	    <category_id> 2 </category_id>
+	    <category_name> Простейшие задачи  </category_name>
+	    <subject_id> 1 </subject_id>
+    </category>
     
+    <subcategory>
+	    <subcategory_id> 2 </subcategory_id>
+	    <subcategory_name> Проценты </subcategory_name>
+	    <category_id>  2 </category_id> 	
+    </subcategory>
+    <subcategory>
+	    <subcategory_id> 3 </subcategory_id>
+	    <subcategory_name> Округление с недостатком </subcategory_name>
+	    <category_id> 2 </category_id> 	
+</subcategory>
+     <category>
+	    <category_id> 3 </category_id>
+	    <category_name> Действия со степенями </category_name>
+	    <subject_id> 1 </subject_id>
+    </category>
+    
+    <subcategory>
+	    <subcategory_id> 4 </subcategory_id>
+	    <subcategory_name> Совместные действия </subcategory_name>
+	    <category_id>  3 </category_id> 	
+    </subcategory>
+	   <category>
+	    <category_id> 4 </category_id>
+	    <category_name> Преобразование выражений</category_name>
+	    <subject_id> 1 </subject_id>
+    </category>
+    
+    <subcategory>
+	    <subcategory_id> 5 </subcategory_id>
+	    <subcategory_name> Действия с формулами </subcategory_name>
+	    <category_id>  4 </category_id> 	
+    </subcategory>
     <task>
 	    <task_id> 2000  </task_id> 
 	    <task_name> Действия с рациональными числами   </task_name>
 	    <task_text> 
-            <html>
+       
             <p align="center"> Найдите значение выражения:</p>
                 \[\begin{matrix}
                 \ ({{3}\over{5}} + {{8}\over{9}}) * 90 \\
                 \end{matrix} \]
-            </html>
+        
         </task_text>         
 	    <task_rate> 0 </task_rate> 
 	    <subcategory_id> 1 </subcategory_id>
@@ -44,12 +83,12 @@
 	    <task_id> 2001  </task_id> 
 	    <task_name> Действия с рациональными числами  </task_name>
 	    <task_text> 
-            <html>
+           
             <p align="center"><p align="center"> Найдите значение выражения:</p></p>
                 \[\begin{matrix}
                 \ (-2*{{3}\over{4}} - {{3}\over{8}}) * 160 \\
                 \end{matrix} \]
-           </html>
+         
         </task_text>         
 	    <task_rate> 0 </task_rate> 
 	    <subcategory_id> 1 </subcategory_id>
@@ -66,12 +105,12 @@
 	    <task_id> 2002  </task_id> 
 	    <task_name> Действия с рациональными числами  </task_name>
 	    <task_text> 
-            <html>
+          
             <p align="center"><p align="center"> Найдите значение выражения:</p></p>
                 \[\begin{matrix}
                 \ ({{3}\over{4}} + -2*{{3}\over{8}}) * 25.8 \\
                 \end{matrix} \]
-           </html>
+          
         </task_text>         
 	    <task_rate> 0 </task_rate> 
 	    <subcategory_id> 1 </subcategory_id>
@@ -89,12 +128,12 @@
 	    <task_id> 2003  </task_id> 
 	    <task_name> Действия с рациональными числами  </task_name>
 	    <task_text> 
-            <html>
+      
             <p align="center"><p align="center"> Найдите значение выражения:</p></p>
                 \[\begin{matrix}
                 \ {{2}\over{5}} + {{1}\over{4}} + 2 \\
                 \end{matrix} \]
-           </html>
+           
         </task_text>         
 	    <task_rate> 0 </task_rate> 
 	    <subcategory_id> 1 </subcategory_id>
@@ -111,12 +150,12 @@
 	    <task_id> 2004  </task_id> 
 	    <task_name> Действия с рациональными числами  </task_name>
 	    <task_text> 
-            <html>
+       
             <p align="center"><p align="center"> Найдите значение выражения:</p></p>
                 \[\begin{matrix}
                 \ {{0.42}} : {{3}\over{10}} \\
                 \end{matrix} \]
-           </html>
+        
         </task_text>         
 	    <task_rate> 0 </task_rate> 
 	    <subcategory_id> 1 </subcategory_id>
@@ -133,14 +172,13 @@
 	    <task_id> 2005  </task_id> 
 	    <task_name> Про­стей­шие текстовые задачи </task_name>
 	    <task_text> 
-            <html>
+         
             <p align="center"><p align="center"> В школе есть трех­мест­ные ту­ри­сти­че­ские па­лат­ки.
              Какое наи­мень­шее число па­ла­ток нужно взять в поход, в ко­то­ром участ­ву­ет 20 че­ло­век?:</p></p>
-                
-           </html>
+          
         </task_text>         
 	    <task_rate> 0 </task_rate> 
-	    <subcategory_id> 2 </subcategory_id>
+	    <subcategory_id> 3 </subcategory_id>
         <is_real> bool  </is_real>
   </task>
 
@@ -154,12 +192,11 @@
 	    <task_id> 2006  </task_id> 
 	    <task_name> Про­стей­шие текстовые задачи </task_name>
 	    <task_text> 
-            <html>
+           
             <p align="center"><p align="center"> Ма­га­зин за­ку­па­ет цве­точ­ные горш­ки
             по опто­вой цене 90 руб­лей за штуку и про­да­ет с на­цен­кой 20%. 
             Какое наи­боль­шее число таких горш­ков можно ку­пить в этом ма­га­зи­не на 1100 руб­лей?:</p></p>
-                
-           </html>
+         
         </task_text>         
 	    <task_rate> 0 </task_rate> 
 	    <subcategory_id> 2 </subcategory_id>
@@ -176,14 +213,13 @@
 	    <task_id> 2007 </task_id> 
 	    <task_name> Про­стей­шие текстовые задачи </task_name>
 	    <task_text> 
-            <html>
+          
             <p align="center"><p align="center"> В доме, в ко­то­ром живёт Женя, один подъ­езд.
              На каж­дом этаже по во­семь квар­тир. Женя живёт в квар­ти­ре 87. На каком этаже живёт Женя?:</p></p>
-                
-           </html>
+          
         </task_text>         
 	    <task_rate> 0 </task_rate> 
-	    <subcategory_id> 2 </subcategory_id>
+	    <subcategory_id> 3 </subcategory_id>
         <is_real> bool  </is_real>
      </task>
 
@@ -197,11 +233,10 @@
 	    <task_id> 2008 </task_id> 
 	    <task_name> Про­стей­шие текстовые задачи </task_name>
 	    <task_text> 
-            <html>
+           
             <p align="center"><p align="center"> Фут­бол­ка сто­и­ла 800 руб­лей.
              После сни­же­ния цены она стала сто­ить 680 руб­лей. На сколь­ко про­цен­тов была сни­же­на цена на фут­бол­ку?:</p></p>
-                
-           </html>
+          
         </task_text>         
 	    <task_rate> 0 </task_rate> 
 	    <subcategory_id> 2 </subcategory_id>
@@ -218,16 +253,16 @@
 	    <task_id> 2009 </task_id> 
 	    <task_name> Про­стей­шие текстовые задачи </task_name>
 	    <task_text> 
-            <html>
+          
             <p align="center"><p align="center"> Кли­ент взял в банке кре­дит 12 000 руб­лей на год под 16%.
              Он дол­жен по­га­шать кре­дит, внося в банк еже­ме­сяч­но оди­на­ко­вую сумму денег,
              с тем чтобы через год вы­пла­тить всю сумму, взя­тую в кре­дит,
              вме­сте с про­цен­та­ми. Сколь­ко руб­лей он дол­жен вно­сить в банк еже­ме­сяч­но?:</p></p>
                 
-           </html>
+           
         </task_text>         
 	    <task_rate> 0 </task_rate> 
-	    <subcategory_id> 2 </subcategory_id>
+	    <subcategory_id> 3 </subcategory_id>
         <is_real> bool  </is_real>
      </task>
 
@@ -241,15 +276,15 @@
 	    <task_id> 2010 </task_id> 
 	    <task_name> Действия со степенями </task_name>
 	    <task_text> 
-            <html>
+            
             <p align="center"><p align="center"> Най­ди­те про­из­ве­де­ние чисел :</p></p>
                 \[\begin{matrix}
                 \ {{7}*{10^5}} * {{1.3}*10^{-7}} \\
                 \end{matrix} \]   
-           </html>
+           
         </task_text>         
 	    <task_rate> 0 </task_rate> 
-	    <subcategory_id> 1 </subcategory_id>
+	    <subcategory_id> 4 </subcategory_id>
         <is_real> bool  </is_real>
      </task>
 
@@ -263,15 +298,15 @@
 	    <task_id> 2011 </task_id> 
 	    <task_name> Действия со степенями </task_name>
 	    <task_text> 
-            <html>
+           
             <p align="center"><p align="center"> Най­ди­те зна­че­ние вы­ра­же­ния  :</p></p>
                 \[\begin{matrix}
                 \ {0.01^2} * 10^5 : 4^{-2} \\
                 \end{matrix} \]   
-           </html>
+         
         </task_text>         
 	    <task_rate> 0 </task_rate> 
-	    <subcategory_id> 1 </subcategory_id>
+	    <subcategory_id> 4 </subcategory_id>
         <is_real> bool  </is_real>
      </task>
 
@@ -285,15 +320,15 @@
 	    <task_id> 2012 </task_id> 
 	    <task_name> Действия со степенями </task_name>
 	    <task_text> 
-            <html>
+            
             <p align="center"><p align="center"> Най­ди­те зна­че­ние вы­ра­же­ния  :</p></p>
                 \[\begin{matrix}
                 \ {8^{0.76}} * 64^{0.12} \\
                 \end{matrix} \]   
-           </html>
+           
         </task_text>         
 	    <task_rate> 0 </task_rate> 
-	    <subcategory_id> 1 </subcategory_id>
+	    <subcategory_id> 4 </subcategory_id>
         <is_real> bool  </is_real>
      </task>
 
@@ -307,15 +342,15 @@
 	    <task_id> 2013 </task_id> 
 	    <task_name> Действия со степенями </task_name>
 	    <task_text> 
-            <html>
+            
             <p align="center"><p align="center"> Най­ди­те зна­че­ние про­из­ве­де­ния чисел   :</p></p>
                 \[\begin{matrix}
                 \ {6*{10^2}} * {1.2}*{10^{-4}} \\
                 \end{matrix} \]   
-           </html>
+           
         </task_text>         
 	    <task_rate> 0 </task_rate> 
-	    <subcategory_id> 1 </subcategory_id>
+	    <subcategory_id> 4 </subcategory_id>
         <is_real> bool  </is_real>
      </task>
 
@@ -329,15 +364,15 @@
 	    <task_id> 2014 </task_id> 
 	    <task_name> Действия со степенями </task_name>
 	    <task_text> 
-            <html>
+            
             <p align="center"><p align="center"> Най­ди­те зна­че­ние про­из­ве­де­ния чисел   :</p></p>
                 \[\begin{matrix}
                 \ ({-10^5}) + ({-10^4}) + ({-10^2}) \\
                 \end{matrix} \]   
-           </html>
+           
         </task_text>         
 	    <task_rate> 0 </task_rate> 
-	    <subcategory_id> 1 </subcategory_id>
+	    <subcategory_id> 4 </subcategory_id>
         <is_real> bool  </is_real>
      </task>
 
@@ -346,6 +381,118 @@
 	    <answer> -89900 </answer>
 	    <task_id> 2014 </task_id>
     </solution>
+	
+      <task>
+	    <task_id> 2015 </task_id> 
+	    <task_name> Преобразование выражений </task_name>
+	    <task_text> 
+            <p align="center"> Работа постоянного тока (в джоулях) вычисляется по формуле   :</p>
+                \[\begin{matrix}
+                \ A = {{U^2 * t}\over{R}}\\
+                \end{matrix} \]   
+           <p align="center"> где U — напряжение (в вольтах), R — сопротивление (в омах), t — время (в секундах).
+	           Пользуясь этой формулой, найдите A (в джоулях), если t= 18 с ,U = 7 B  и R = 14  Ом.  :</p>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 5 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2015 </solution_id>
+	    <answer> 63 </answer>
+	    <task_id> 2015 </task_id>
+    </solution>
 
 
+      <task>
+	    <task_id> 2016</task_id> 
+	    <task_name> Преобразование выражений </task_name>
+	    <task_text> 
+            <p align="center"> Теорему ко­си­ну­сов можно за­пи­сать в виде    :</p>
+                \[\begin{matrix}
+                \ cos y = {{a^2 + b^2 - c^2}\over{2*a*b}} \\
+                \end{matrix} \]   
+           <p align="center">  где  a,b и c — сто­ро­ны треугольника, а y — угол между сто­ро­на­ми a и b.
+		   Поль­зу­ясь этой формулой, най­ди­те ве­ли­чи­ну cos y если a = 3, b = 8  и c = 7. :</p>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 5 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2016</solution_id>
+	    <answer> 0.5  </answer>
+	    <task_id> 2016 </task_id>
+	    
+    </solution>
+	
+	   <task>
+	    <task_id> 2017</task_id> 
+	    <task_name> Преобразование выражений </task_name>
+	    <task_text> 
+            <p align="center"> Количество теп­ло­ты (в джоулях), по­лу­чен­ное од­но­род­ным телом при нагревании, вы­чис­ля­ет­ся по фор­му­ле :</p>
+                \[\begin{matrix}
+                \ Q = c*m*(t2 - t1) \\
+                \end{matrix} \]   
+           <p align="center"> где c — удель­ная теплоёмкость,m — масса тела (в кг), t1 — на­чаль­ная тем­пе­ра­ту­ра тела (в кельвинах), а t2 — ко­неч­ная тем­пе­ра­ту­ра тела (в кельвинах). 
+		   Поль­зу­ясь этой формулой, най­ди­те Q если t2 = 412 К, c= 300 ,  m = 3 кг и t1 = 407 К. :</p>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 5 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2017 </solution_id>
+	    <answer> 4500 </answer>
+	    <task_id> 2017 </task_id>
+    </solution>
+	
+	 <task>
+	    <task_id> 2018 </task_id> 
+	    <task_name> Преобразование выражений </task_name>
+	    <task_text> 
+            <p align="center"> В фирме «Эх, прокачу!» сто­и­мость по­езд­ки на такси (в рублях) рас­счи­ты­ва­ет­ся по фор­му­ле   :</p>
+                \[\begin{matrix}
+                \ C = 1500 + 11 *(t - 5)  \\
+                \end{matrix} \]   
+           <p align="center"> где t — дли­тель­ность поездки, вы­ра­жен­ная в ми­ну­тах .
+		   Поль­зу­ясь этой формулой, рас­счи­тай­те сто­и­мость 15-минутной поездки. Ответ ука­жи­те в рублях.  :</p>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 5 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2018 </solution_id>
+	    <answer> 1610 </answer>
+	    <task_id> 2018 </task_id>
+    </solution>
+	
+	<task>
+	    <task_id> 2019 </task_id> 
+	    <task_name> Преобразование выражений </task_name>
+	    <task_text> 
+            <p align="center">  Площадь тра­пе­ции S в м2 можно вы­чис­лить по фор­му­ле   :</p>
+                \[\begin{matrix}
+                \ S = {({a + b})*h \over{2}} \\
+                \end{matrix} \]   
+           <p align="center"> где a, b   — ос­но­ва­ния трапеции, h  — вы­со­та (в метрах).
+		   Поль­зу­ясь этой формулой, най­ди­те S, если a = 4, b = 9 и h = 2. :</p>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 5 </subcategory_id>
+        <is_real> bool  </is_real>
+     </task>
+
+    <solution>
+	    <solution_id> 2019</solution_id>
+	    <answer> 13 </answer>
+	    <task_id> 2019 </task_id>
+    </solution>
+	
+	
 </xml>
