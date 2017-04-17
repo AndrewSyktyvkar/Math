@@ -24,12 +24,10 @@
 						<div class="panel-heading">
 							<h2 class="panel-title">Новое задание</h2>
 						</div>
-						<div class="panel-body">
-							<div class="dropdown">
-								<?php 
-									require_once($_SERVER['DOCUMENT_ROOT'] . '/math/templates/new-task-template.php');  
-								?>
-							</div>
+						<div class="panel-body">		
+							<?php 
+								require_once($_SERVER['DOCUMENT_ROOT'] . '/math/templates/new-task-template.php');  
+							?>
 						</div>
 					</div>
 				</div>
