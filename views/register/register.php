@@ -45,7 +45,7 @@
               <input type="email" class="form-control" name="email" placeholder="Email">
               <label for="passwd">Password</label>
               <input type="password" class="form-control" name="passwd" placeholder="Password">
-              <small>Use at least one lowercase latin letter, one uppercase latin letter, one numeral, and seven characters.</small>
+              <small>Пароль должен включать как минимум 7 символов, одну заглавную, одну строчную букву и одну цифру.</small>
               <br>            
               <label for="invite">Invite key</label>
               <input type="text" class="form-control" name="invite" placeholder="Invite key">
