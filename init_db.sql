@@ -3,14 +3,14 @@ CREATE DATABASE math CHARACTER SET utf8 COLLATE utf8_general_ci;
 USE math;
 
 create table users ( 
-    user_id int, 
+    user_id int PRIMARY KEY AUTO_INCREMENT, 
     user_name text, 
     user_passwort_hash text,
     access_token text
 );
 
 create table authors ( 
-    author_id int, 
+    author_id int PRIMARY KEY AUTO_INCREMENT, 
     author_name text, 
     author_passwort_hash text,
     access_token text
@@ -61,21 +61,21 @@ create table tasks_in_tests (
 );
 	
 create table articles (
-	article_id int,
+	article_id int PRIMARY KEY AUTO_INCREMENT,
 	article_text text,
 	article_date date,
 	subcategory_id int
 );
 	
 create table solutions (
-	solution_id int,
+	solution_id int PRIMARY KEY AUTO_INCREMENT,
 	solution text,
 	answer text,
 	task_id int
 );
 	
 create table comments (
-	comment_id int,
+	comment_id int PRIMARY KEY AUTO_INCREMENT,
 	comment_to text,
 	comment_text text,
 	comment_date date,

@@ -1,0 +1,845 @@
+<xml>
+    <subject>
+	    <subject_id> 1 </subject_id>
+	    <subject_name> math (b) </subject_name>
+	</subject>
+
+    <category>
+	    <category_id> 1 </category_id>
+	    <category_name> Вычисления </category_name>
+	    <subject_id> 1 </subject_id>
+    </category>
+    
+    <subcategory>
+	    <subcategory_id> 1 </subcategory_id>
+	    <subcategory_name> Действия с дробями </subcategory_name>
+	    <category_id> 1 </category_id> 	
+    </subcategory>
+
+    <subcategory>
+	    <subcategory_id> 2 </subcategory_id>
+	    <subcategory_name> Действия со степенями </subcategory_name>
+	    <category_id> 1 </category_id> 	
+    </subcategory>
+
+
+    <category>
+	    <category_id> 2 </category_id>
+	    <category_name> Простейшие уравнения  </category_name>
+	    <subject_id> 1 </subject_id>
+    </category>
+    
+    <subcategory>
+	    <subcategory_id> 3 </subcategory_id>
+	    <subcategory_name> Линейные, квадратные, кубические уравнения </subcategory_name>
+	    <category_id> 2 </category_id> 	
+    </subcategory>
+
+    <category>
+	    <category_id> 3 </category_id>
+	    <category_name> Простейшие текстовые задачи  </category_name>
+	    <subject_id> 1 </subject_id>
+    </category>
+    
+    <subcategory>
+	    <subcategory_id> 4 </subcategory_id>
+	    <subcategory_name> Проценты </subcategory_name>
+	    <category_id> 3 </category_id> 	
+    </subcategory>
+
+    <subcategory>
+	    <subcategory_id> 5 </subcategory_id>
+	    <subcategory_name> Округление с недостатком </subcategory_name>
+	    <category_id> 3 </category_id> 	
+    </subcategory>
+
+    <category>
+	    <category_id> 4 </category_id>
+	    <category_name> Преобразования выражений  </category_name>
+	    <subject_id> 1 </subject_id>
+    </category>
+    
+    <subcategory>
+	    <subcategory_id> 6 </subcategory_id>
+	    <subcategory_name> Действия с формулами </subcategory_name>
+	    <category_id> 4 </category_id> 	
+    </subcategory>
+
+    <category>
+	    <category_id> 5 </category_id>
+	    <category_name> Вычисления и преобразования </category_name>
+	    <subject_id> 1 </subject_id>
+    </category>
+    
+    <subcategory>
+	    <subcategory_id> 7 </subcategory_id>
+	    <subcategory_name> Преобразования числовых иррациональных выражений </subcategory_name>
+	    <category_id> 5 </category_id> 	
+    </subcategory>
+
+    <category>
+	    <category_id> 6 </category_id>
+	    <category_name> Прикладная геометрия </category_name>
+	    <subject_id> 1 </subject_id>
+    </category>
+    
+    <subcategory>
+	    <subcategory_id> 8 </subcategory_id>
+	    <subcategory_name> Многоугольники </subcategory_name>
+	    <category_id> 6 </category_id> 	
+    </subcategory>    
+
+    <category>
+	    <category_id> 7 </category_id>
+	    <category_name> Размеры и единицы измерения </category_name>
+	    <subject_id> 1 </subject_id>
+    </category>
+    
+    <subcategory>
+	    <subcategory_id> 9 </subcategory_id>
+	    <subcategory_name> Размеры и единицы измерения </subcategory_name>
+	    <category_id> 7 </category_id> 	
+    </subcategory>    
+
+    <category>
+	    <category_id> 8 </category_id>
+	    <category_name> Начала теории вероятностей </category_name>
+	    <subject_id> 1 </subject_id>
+    </category>
+    
+    <subcategory>
+	    <subcategory_id> 10 </subcategory_id>
+	    <subcategory_name> Классическое определение вероятности </subcategory_name>
+	    <category_id> 8 </category_id> 	
+    </subcategory> 
+
+    <category>
+	    <category_id> 9 </category_id>
+	    <category_name> Чтение графиков и диаграмм </category_name>
+	    <subject_id> 1 </subject_id>
+    </category>
+    
+    <subcategory>
+	    <subcategory_id> 11 </subcategory_id>
+	    <subcategory_name> Определение величины по диаграмме </subcategory_name>
+	    <category_id> 9 </category_id> 	
+    </subcategory> 
+
+    <category>
+	    <category_id> 10 </category_id>
+	    <category_name> Выбор оптимального варианта </category_name>
+	    <subject_id> 1 </subject_id>
+    </category>
+    
+    <subcategory>
+	    <subcategory_id> 12 </subcategory_id>
+	    <subcategory_name> Подбор комплекта или комбинации </subcategory_name>
+	    <category_id> 10 </category_id> 	
+    </subcategory> 
+
+    <category>
+	    <category_id> 11 </category_id>
+	    <category_name> Стереометрия </category_name>
+	    <subject_id> 1 </subject_id>
+    </category>
+    
+    <subcategory>
+	    <subcategory_id> 13 </subcategory_id>
+	    <subcategory_name> Куб </subcategory_name>
+	    <category_id> 11 </category_id> 	
+    </subcategory> 
+
+    <category>
+	    <category_id> 12 </category_id>
+	    <category_name> Анализ графиков и диаграмм </category_name>
+	    <subject_id> 1 </subject_id>
+    </category>
+    
+    <subcategory>
+	    <subcategory_id> 14 </subcategory_id>
+	    <subcategory_name> Скорость изменения величин </subcategory_name>
+	    <category_id> 12 </category_id> 	
+    </subcategory> 
+
+    <category>
+	    <category_id> 13 </category_id>
+	    <category_name> Планиметрия </category_name>
+	    <subject_id> 1 </subject_id>
+    </category>
+    
+    <subcategory>
+	    <subcategory_id> 15 </subcategory_id>
+	    <subcategory_name> Треугольники </subcategory_name>
+	    <category_id> 13 </category_id> 	
+    </subcategory> 
+
+     <category>
+	    <category_id> 14 </category_id>
+	    <category_name> Задачи по стереометрии </category_name>
+	    <subject_id> 1 </subject_id>
+    </category>
+    
+    <subcategory>
+	    <subcategory_id> 16 </subcategory_id>
+	    <subcategory_name> Куб </subcategory_name>
+	    <category_id> 14 </category_id> 	
+    </subcategory>    
+
+     <category>
+	    <category_id> 15 </category_id>
+	    <category_name> Неравенства </category_name>
+	    <subject_id> 1 </subject_id>
+    </category>
+    
+    <subcategory>
+	    <subcategory_id> 17 </subcategory_id>
+	    <subcategory_name> Числовая ось. числовые промежутки </subcategory_name>
+	    <category_id> 15 </category_id> 	
+    </subcategory> 
+
+
+     <category>
+	    <category_id> 16 </category_id>
+	    <category_name> Анализ утверждений </category_name>
+	    <subject_id> 1 </subject_id>
+    </category>
+    
+    <subcategory>
+	    <subcategory_id> 18 </subcategory_id>
+	    <subcategory_name> Анализ утверждений </subcategory_name>
+	    <category_id> 16 </category_id> 	
+    </subcategory> 
+
+     <category>
+	    <category_id> 17 </category_id>
+	    <category_name> Числа и их свойства </category_name>
+	    <subject_id> 1 </subject_id>
+    </category>
+    
+    <subcategory>
+	    <subcategory_id> 19 </subcategory_id>
+	    <subcategory_name> Цифровая запись числа </subcategory_name>
+	    <category_id> 17 </category_id> 	
+    </subcategory> 
+
+     <category>
+	    <category_id> 18 </category_id>
+	    <category_name> Задачи на смекалку </category_name>
+	    <subject_id> 1 </subject_id>
+    </category>
+    
+    <subcategory>
+	    <subcategory_id> 20 </subcategory_id>
+	    <subcategory_name> Задачи на смекалку </subcategory_name>
+	    <category_id> 18 </category_id> 	
+    </subcategory> 
+
+    <test>
+        <test_id> 10 </test_id>
+	    <test_description> math (b) </test_description>
+	    <test_date> 10.04.2017  </test_date> 
+        <test_description> text </test_description>
+	    <test_rate> 0 </test_rate>
+	    <is_real> not real  </is_real> 
+    </test>
+
+    <task>
+	    <task_id> 1000  </task_id> 
+	    <task_name> Найдите значение выражения  </task_name>
+	    <task_text> 
+            <p align="center">Найдите значение выражения:</p>
+                \[\begin{matrix}
+                \ ({{3}\over{5}} + {{8}\over{9}}) * 90 \\
+                \end{matrix} \]
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 1 </subcategory_id>
+        <is_real> real  </is_real>
+    </task>
+
+    <solution>
+	<solution_id> 1000 </solution_id>
+	<solution> 
+         <p align="center">Выполним преобразования:</p>
+                \[\begin{matrix}
+                \ ({{3}\over{5}} + {{8}\over{9}}) * 90 & = & ({{3*9+8*5}\over{45}}) * 90 & = & ({{27+40}\over{45}}) * 90 & = & {{67*90}\over{45}} & = & {{67*2}} & = & {134}  \\
+                \end{matrix} \]
+    </solution>
+	<answer> 134 </answer>
+	<task_id> 1000 </task_id>
+    </solution>
+
+    <task_in_test>
+	    <test_id> 10 </test_id>
+	    <task_id> 1000  </task_id>
+	    <task_number> 1 </task_number>
+    </task_in_test>
+
+    <task>
+	    <task_id> 1001  </task_id> 
+	    <task_name> Найдите значение выражения  </task_name>
+	    <task_text> 
+            <p align="center">Найдите значение выражения:</p>
+                \[\begin{matrix}
+                \ ({2^6}*{{2^(-2)}\over{2^2}}) \\
+                \end{matrix} \]
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 2 </subcategory_id>
+        <is_real> real  </is_real>
+    </task>
+
+    <solution>
+	<solution_id> 1001 </solution_id>
+	<solution> 
+         <p align="center">Выполним преобразования:</p>
+                \[\begin{matrix}
+                \ ({2^6}*{{2^(-2)}\over{2^2}}) & = & ({2^(6-2-2)}) & = & ({2^2}) & = & {4}  \\
+                \end{matrix} \]
+    </solution>
+	<answer> 4 </answer>
+	<task_id> 1001 </task_id>
+    </solution>
+
+     <task_in_test>
+	    <test_id> 10 </test_id>
+	    <task_id> 1001  </task_id>
+	    <task_number> 2 </task_number>
+    </task_in_test>   
+
+    <task>
+	    <task_id> 1002  </task_id> 
+	    <task_name> Решить задачу  </task_name>
+	    <task_text> 
+            <p align="center"> Флакон шампуня стоит 160 рублей. Какое наибольшее число флаконов можно купить на 1000 рублей во время распродажи, когда скидка составляет 25% ? </p>
+          
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 4 </subcategory_id>
+        <is_real> not real  </is_real>
+    </task>
+
+    <solution>
+	<solution_id> 1002 </solution_id>
+	<solution> 
+         <p align="center"> Во время распродажи шампунь станет стоить 160 − 0,25 * 160 = 120 рублей. Разделим 1000 на 120: </p>
+                \[\begin{matrix}
+                \ {{1000}\over{120}} & = & {{25}\over{3}} & = & {8{{1}\over{3}}}  \\
+                \end{matrix} \]
+         <p align="center"> Значит, можно будет купить 8 флаконов шампуня.</p>
+    </solution>
+	<answer>  8 </answer>
+	<task_id> 1002 </task_id>
+    </solution>
+
+    <task_in_test>
+	    <test_id> 10 </test_id>
+	    <task_id> 1002  </task_id>
+	    <task_number> 3 </task_number>
+    </task_in_test>
+
+     <task>
+	    <task_id> 1003  </task_id> 
+	    <task_name> Решить задачу  </task_name>
+	    <task_text> 
+            <p align="center"> Найдите m из равенства F = ma, если F = 84 и a = 12. </p>
+                
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 6 </subcategory_id>
+        <is_real> not real  </is_real>
+    </task>
+
+    <solution>
+	<solution_id> 1003 </solution_id>
+	<solution> 
+         <p align="center"> Подставляем значения F и а, получаем:  </p>
+                \[\begin{matrix}
+                \ {84} & = & {{12} * m} \\
+                \end{matrix} \]
+         <p align="center"> Откуда: </p>
+                \[\begin{matrix}
+                \ {m & = & {84}\over{12}} & = & {7} \\
+                \end{matrix} \]
+    </solution>
+	<answer>  7 </answer>
+	<task_id> 1003 </task_id>
+    </solution>
+
+    <task_in_test>
+	    <test_id> 10 </test_id>
+	    <task_id> 1003  </task_id>
+	    <task_number> 4 </task_number>
+    </task_in_test>
+
+     <task>
+	    <task_id> 1004  </task_id> 
+	    <task_name> Найдите значение выражения.  </task_name>
+	    <task_text> 
+            <p align="center"> Найдите значение выражения: </p>
+                \[\begin{matrix}
+                \ {sqrt{65^2-56^2}} \\
+                \end{matrix} \]    
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 7 </subcategory_id>
+        <is_real> not real  </is_real>
+    </task>
+
+    <solution>
+	<solution_id> 1004 </solution_id>
+	<solution> 
+         <p align="center"> Выполним преобразования:  </p>
+                \[\begin{matrix}
+                \ {sqrt{65^2-56^2}} & = & {sqrt{(65+56)*(65-56)}} & = & {sqrt{121*9}} & = & {11*3} & = & {33} \\
+                \end{matrix} \]
+    </solution>
+	<answer>  33 </answer>
+	<task_id> 1004 </task_id>
+    </solution>
+
+    <task_in_test>
+	    <test_id> 10 </test_id>
+	    <task_id> 1004  </task_id>
+	    <task_number> 5 </task_number>
+    </task_in_test>
+
+    <task>
+	    <task_id> 1005  </task_id> 
+	    <task_name> Решить задачу  </task_name>
+	    <task_text> 
+            <p align="center"> Баночка йогурта стоит 4 рубля 60 копеек. Какое наибольшее количество баночек йогурта можно купить на 25 рублей? </p>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 5 </subcategory_id>
+        <is_real> not real  </is_real>
+    </task>
+
+    <solution>
+	<solution_id> 1005 </solution_id>
+	<solution> 
+         <p align="center"> Разделим 25 на 4,6:  </p>
+                \[\begin{matrix}
+                \ {25 : 4,6} & = & {25 : 4{{3}\over{5}}} & = & {25 : {{23}\over{5}}} & = & {{25*5}\over{23}}} & = &  {5{{10}\over{15}}} & = & {5{{2}\over{3}}} \\
+                \end{matrix} \]
+         <p align="center"> Следовательно, на 25 рублей можно приобрести 5 баночек йогурта. </p>
+                
+    </solution>
+	<answer>  5 </answer>
+	<task_id> 1005 </task_id>
+    </solution>
+
+    <task_in_test>
+	    <test_id> 10 </test_id>
+	    <task_id> 1005  </task_id>
+	    <task_number> 6 </task_number>
+    </task_in_test>
+
+    <task>
+	    <task_id> 1006  </task_id> 
+	    <task_name> Решить уравнение  </task_name>
+	    <task_text> 
+            <p align="center"> Найдите корень уравнения: </p>
+                \[\begin{matrix}
+                \ {8*(x + 6) + 2*x } & = & {8} \\
+                \end{matrix} \]
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 3 </subcategory_id>
+        <is_real> not real  </is_real>
+    </task>
+
+    <solution>
+	<solution_id> 1006 </solution_id>
+	<solution> 
+         <p align="center"> Найдём корень уравнения:  </p>
+                \[\begin{matrix}
+                \ {8*(x + 6) + 2*x } & = & {8} \\
+                \ {8*x + 48 + 2*x } & = & {8} \\
+                \ {10*x + 48 } & = & {8} \\
+                \ {10*x} & = & {-40} \\
+                \ {x} & = & {-4} \\
+                \end{matrix} \]
+    </solution>
+	<answer>  -4 </answer>
+	<task_id> 1006 </task_id>
+    </solution>
+
+    <task_in_test>
+	    <test_id> 10 </test_id>
+	    <task_id> 1006  </task_id>
+	    <task_number> 7 </task_number>
+    </task_in_test>
+
+    <task>
+	    <task_id> 1007  </task_id> 
+	    <task_name> Решить задачу  </task_name>
+	    <task_text> 
+            <p align="center"> Бассейн имеет прямоугольную форму, имеет длину 50 м и раз­делён на 6 дорожек, шириной 2,5 м каждая. Най­ди­те пло­щадь этого бас­сей­на. </p>
+                
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 8 </subcategory_id>
+        <is_real> not real  </is_real>
+    </task>
+
+    <solution>
+	<solution_id> 1007 </solution_id>
+	<solution> 
+         <p align="center"> Ширина бассейна равна 6 · 2,5 = 15 метров, поэтому его площадь равна 50 · 15 = 750 квадратных метров.  </p>
+               
+    </solution>
+	<answer>  750 </answer>
+	<task_id> 1007 </task_id>
+    </solution>
+
+    <task_in_test>
+	    <test_id> 10 </test_id>
+	    <task_id> 1007  </task_id>
+	    <task_number> 8 </task_number>
+    </task_in_test>
+
+    <task>
+	    <task_id> 1008  </task_id> 
+	    <task_name> Установите соответствие </task_name>
+	    <task_text> 
+            <p align="center"> Установите соответствие между величинами и их возможными значениями: к каждому элементу первого столб­ца под­бе­ри­те со­от­вет­ству­ю­щий эле­мент из вто­ро­го столб­ца. </p>
+                \[\begin{matrix}
+                \begin{center}
+                \begin{tabular}{|c|c|}
+                \hline
+                Величины & Возможные значения \\
+                \hline
+                А) Рост ребенка & $32$ км \\
+                Б) Толщина листа баумаги & $30$ м \\
+                В) Длина автобусного маршрута  &  $0,2$ мм\\
+                Г) Высота жилого дома  &  $110$ см\
+                \end{tabular}
+                \end{center}
+                \end{matrix} \]
+        
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 9 </subcategory_id>
+        <is_real> not real  </is_real>
+    </task>
+
+    <solution>
+	<solution_id> 1008 </solution_id>
+	<solution> 
+         <p align="center"> Рост ребёнка может быть равен 110 см, толщина листа бумаги может составлять 0,2 мм, 
+                                                длина автобусного маршрута — 32 км, высота жилого дома — 30 м.  </p>
+               
+    </solution>
+	<answer>  4312 </answer>
+	<task_id> 1008 </task_id>
+    </solution>
+
+    <task_in_test>
+	    <test_id> 10 </test_id>
+	    <task_id> 1008  </task_id>
+	    <task_number> 9 </task_number>
+    </task_in_test>    
+
+    <task>
+	    <task_id> 1009  </task_id> 
+	    <task_name> Решите задачу </task_name>
+	    <task_text> 
+            <p align="center"> В чемпионате по гимнастике участвуют 20 спортсменок: 8 из России, 7 из США, остальные — из Китая. 
+                               Порядок, в котором выступают гимнастки, определяется жребием. 
+                               Найдите вероятность того, что спортсменка, выступающая первой, окажется из Китая. </p>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 10 </subcategory_id>
+        <is_real> not real  </is_real>
+    </task>
+
+    <solution>
+	<solution_id> 1009 </solution_id>
+	<solution> 
+         <p align="center"> В чемпионате принимает участие 20 - (8 + 7) = 5 спортсменок из Китая. 
+                            Тогда вероятность того, что спортсменка, выступающая первой, окажется из Китая, равна  </p>
+                \[\begin{matrix}
+                \ {{5}\over{20}} & = & {{1}\over{4}} & = & {0,25} \\
+                \end{matrix} \]                 
+               
+    </solution>
+	<answer>  0,25 </answer>
+	<task_id> 1009 </task_id>
+    </solution>
+
+    <task_in_test>
+	    <test_id> 10 </test_id>
+	    <task_id> 1009  </task_id>
+	    <task_number> 10 </task_number>
+    </task_in_test> 
+
+
+    <task>
+	    <task_id> 1011  </task_id> 
+	    <task_name> Решите задачу </task_name>
+	    <task_text> 
+            <p align="center"> Для обслуживания международного семинара необходимо собрать группу переводчиков. Сведения о кандидатах представлены в таблице. </p>
+              \[\begin{matrix}
+                \begin{center}
+                \begin{tabular}{|c|c|c|}
+                \hline
+                Переводчики & Языки & Стоимость услуг (рублей в день) \\
+                \hline
+                1 & немецкий, испанский & $7000$ \\
+                2 & английский,немецкий & $6000$ \\
+                3 & английский & $3000$ \\
+                4 & английский, французкий & $6000$ \\
+                5 & французкий & $2000$ \\
+                6 & испанский & $4000$ \\
+                \end{tabular}
+                \end{center}
+                \end{matrix} \]
+                <p align="center"> Пользуясь таблицей, соберите хотя бы одну группу, в которой переводчики вместе владеют четырьбя иностранными языками:
+                                    английским, немецким, французским и испанским, а суммарная стоимость их услуг не превышает 12 000 рублей в день. 
+                                    В ответе укажите ровно один набор номеров переводчиков без пробелов, запятых и других дополнительных символов. </p>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 12 </subcategory_id>
+        <is_real> not real  </is_real>
+    </task>
+
+    <solution>
+	<solution_id> 1011 </solution_id>
+	<solution> 
+         <p align="center"> Заметим, что стоимость услуг переводчиков, знающих только английский и французский языки меньше стоимости услуг переводчика, 
+                            знающего одновременно английский и французский языки, поэтому при подборе вариантов четвёртого переводчика можно не учи­ты­вать. 
+                            Переводчика, знающего только немецкий язык нет, поэтому в группу необходимо взять либо первого, либо вто­ро­го пе­ре­вод­чи­ка.
+                            В пер­вом случае необходимо включить в группу переводчиков, знающих английский и французский языки; 
+                            дешевле выбрать переводчиков 3 и 5, тогда стоимость услуг составит 12 000 рублей в день. 
+                            Остальные варианты дороже.
+                            Во втором случае необходимо включить в группу переводчиков, знающих французский и испанский языки; 
+                            дешевле выбрать переводчиков 5 и 6, тогда стоимость услуг составит 12 000 рублей в день. 
+                            Осталь­ные ва­ри­ан­ты до­ро­же.
+                            Таким об­ра­зом, груп­па пе­ре­вод­чи­ков, удо­вле­тво­ря­ю­щая всем усло­ви­ям, 
+                            может быть со­бра­на из пе­ре­вод­чи­ков 1, 3 и 5 или из пе­ре­вод­чи­ков 2, 5 и 6.  </p>
+    </solution>
+	<answer>   135 или 256 </answer>
+	<task_id> 1011 </task_id>
+    </solution>
+
+   <task_in_test>
+	    <test_id> 10 </test_id>
+	    <task_id> 1011  </task_id>
+	    <task_number> 11 </task_number>
+    </task_in_test>  
+
+   <task> 
+        <task_id> 1012  </task_id> 
+	    <task_name> Решите задачу </task_name>
+	    <task_text> 
+            <p align="center"> Площадь поверхности куба равна 18. Найдите его диагональ. </p>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 13 </subcategory_id>
+        <is_real> not real  </is_real>
+    </task>
+
+    <solution>
+	<solution_id> 1012 </solution_id>
+	<solution> 
+         <p align="center"> Пусть ребро куба равно a , тогда пло­щадь по­верх­но­сти куба равна </p>
+                 \[\begin{matrix}
+                \ {S} & = & {6*a^2} \\
+                \end{matrix} \]
+         <p align="center"> а диагональ куба: </p>
+                 \[\begin{matrix}
+                \ {d} & = & {a * sqrt{3}} \\
+                \end{matrix} \]
+        <p align="center">Тогда </p>
+                 \[\begin{matrix}
+                \ {d} & = & {sqrt{3} * sqrt{{S}\over{6}}} & = & sqrt{{S*3}\over{6}} & = & sqrt{{S}\over{2}} & = & sqrt{{18}\over{2}} & = & sqrt{9} & = & {3}\\
+                \end{matrix} \]
+                     
+    </solution>
+	<answer> 3 </answer>
+	<task_id> 1012 </task_id>
+    </solution>
+
+    <task_in_test>
+	    <test_id> 10 </test_id>
+	    <task_id> 1012  </task_id>
+	    <task_number> 12 </task_number>
+
+	    <task>
+    <task_id> 1014  </task_id> 
+	    <task_name> Решить задачу </task_name>
+	    <task_text> 
+            <p align="center"> Площадь прямугольного треугольника равна 16. Один из его катетов равен 4. Найдите другой катет. </p>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 15 </subcategory_id>
+        <is_real> not real  </is_real>
+    </task>
+
+    <solution>
+	<solution_id> 1014 </solution_id>
+	<solution> 
+         <p align="center"> Площадь прямоугольного треугольника равна половине произведения его катетов. Пусть неизвестный катет равен a. Тогда: </p>
+                 \[\begin{matrix}
+                \ {S} & = & {{1}\over{2}}*a*4 & = & 16 \\
+                \end{matrix} \]
+         
+        <p align="center">Отсюда </p>
+                 \[\begin{matrix}
+                \ {a} & = & {8}\\
+                \end{matrix} \]
+                     
+    </solution>
+	<answer> 8 </answer>
+	<task_id> 1014 </task_id>
+    </solution>
+
+    <task_in_test>
+	    <test_id> 10 </test_id>
+	    <task_id> 1013  </task_id>
+	    <task_number> 14 </task_number>
+    </task_in_test> 
+
+     <task>
+    <task_id> 1015  </task_id> 
+	    <task_name> Решить задачу </task_name>
+	    <task_text> 
+            <p align="center"> Во сколько раз увеличится объем куба, если все его рёбра увеличить в 5 раз? </p>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 16 </subcategory_id>
+        <is_real> not real  </is_real>
+    </task>
+
+    <solution>
+	<solution_id> 1015 </solution_id>
+	<solution> 
+         <p align="center"> Исходный и полученный куб подобны с коэффициентом 5. Объемы подобных тел относятся как куб коэффициента по­до­бия.
+                             Следовательно, при увеличении длины ребра в 5 раз объем куба увеличится в . </p>
+                 \[\begin{matrix}
+                \ {5^3} & = & {125} \\
+                \end{matrix} \]
+         
+        <p align="center"> раз </p>
+             
+                     
+    </solution>
+	<answer> 125 </answer>
+	<task_id> 1015 </task_id>
+    </solution>
+
+    <task_in_test>
+	    <test_id> 10 </test_id>
+	    <task_id> 1015  </task_id>
+	    <task_number> 16 </task_number>
+    </task_in_test>    
+
+
+     <task>
+    <task_id> 1016  </task_id> 
+	    <task_name> Выберите верные утверждения</task_name>
+	    <task_text> 
+            <p align="center"> При взвешивании животных в зоопарке выяснилось, что жираф тяжелее верблюда, 
+		    	       вер­блюд тя­же­лее тигра, а лео­пард легче верблюда. Вы­бе­ри­те утверждения, 
+		    		ко­то­рые верны при ука­зан­ных условиях.
+				1) лео­пард тя­же­лее верблюда
+				2) жираф тя­же­лее леопарда
+				3) жираф легче тигра
+				4) жираф самый тяжёлый из всех этих животных </p>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 18 </subcategory_id>
+        <is_real> not real  </is_real>
+    </task>
+
+    <solution>
+	<solution_id> 1016 </solution_id>
+	<solution> 
+         <p align="center">  Составим не­ра­вен­ства согласно задаче:
+				1) жираф тя­же­лее вер­блю­да: Ж>В
+				2) вер­блюд тя­же­лее тигра
+				3) лео­пард легче вер­блю­да
+				Составим общие неравенства: Ж>B>Т и Ж>В>Л.
+				Проанализируем пред­став­лен­ные утверждения:
+				1) лео­пард тя­же­лее вер­блю­да - неверно, так как в усло­вии сказано, что лео­пард легче верблюда
+				2) жираф тя­же­лее лео­пар­да - верно, ис­хо­дя из со­став­лен­ных нами неравенств
+				3) жираф легче тигра - неверно, ис­хо­дя из со­став­лен­ных нами неравенств
+				4) жираф самый тяжёлый из всех этих жи­вот­ных - верно, ис­хо­дя из со­став­лен­ных нами неравенств  </p>
+             
+        </solution>
+	<answer> 24 </answer>
+	<task_id> 1016 </task_id>
+    </solution>
+
+    <task_in_test>
+	    <test_id> 10 </test_id>
+	    <task_id> 1016  </task_id>
+	    <task_number> 18 </task_number>
+    </task_in_test>  
+    
+	    
+     <task>
+    <task_id> 1017  </task_id> 
+	    <task_name> Дайте ответ</task_name>
+	    <task_text> 
+            <p align="center"> Приведите при­мер трёхзначного числа, сумма цифр ко­то­ро­го равна 20, а сумма квад­ра­тов цифр де­лит­ся на 3, но не де­лит­ся на 9.  </p>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 19 </subcategory_id>
+        <is_real> not real  </is_real>
+    </task>
+
+    <solution>
+	<solution_id> 1017 </solution_id>
+	<solution> 
+         <p align="center">  Разложим число 20 на сла­га­е­мые раз­лич­ны­ми способами:  </p>
+		\[\begin{matrix}
+                \ {20} & = & {9 + 9 + 2} & = &  {9 + 8 + 3} & = & {9 + 7 + 4} & = & {9 + 6 + 5} & = & {8 + 8 + 4} & = & {8 + 7 + 5} & = & {8 + 6 + 6} & = & {7 + 7 + 6} \\
+                \end{matrix} \]
+		<p align="center"> При разложении способами 1−4, 7 и 8 суммы квадратов чисел не кратны трём. 
+			При разложении пятым способом сумма квадратов кратна девяти. Разложение шестым способом удовлетворяет
+			условиям задачи. Таким образом, условию задачи удовлетворяет любое число, записанное цифрами 5, 7 и 8, 
+			например, число 578. </p>
+       </solution>
+	<answer> 578 </answer>
+	<task_id> 1017 </task_id>
+    </solution>
+
+    <task_in_test>
+	    <test_id> 10 </test_id>
+	    <task_id> 1017  </task_id>
+	    <task_number> 19 </task_number>
+    </task_in_test>
+	    
+	    	    
+     <task>
+    <task_id> 1018  </task_id> 
+	    <task_name> Дайте ответ</task_name>
+	    <task_text> 
+            <p align="center"> Каждую секунду бактерия делится на две новые бактерии. Известно, что весь объём одного стакана бактерии заполняют за 1 час. За сколько секунд стакан будет заполнен бактериями наполовину?  </p>
+        </task_text>         
+	    <task_rate> 0 </task_rate> 
+	    <subcategory_id> 20 </subcategory_id>
+        <is_real> not real  </is_real>
+    </task>
+
+    <solution>
+	<solution_id> 1018 </solution_id>
+	<solution> 
+         <p align="center">  Заметим, что каждую секунду в стакане становится в два раза больше бактерий. 
+		 		То есть если в какой-то момент бактериями заполнена половина стакана, 
+		 		то через секунду будет заполнен весь стакан. Таким образом, полстакана 
+		 		будет заполнено через 59 минут и 59 секунд то есть через 3599 секунд.  </p>
+		
+       </solution>
+	<answer> 3599 </answer>
+	<task_id> 1018 </task_id>
+    </solution>
+
+    <task_in_test>
+	    <test_id> 10 </test_id>
+	    <task_id> 1018  </task_id>
+	    <task_number> 20 </task_number>
+    </task_in_test>
+</xml> 
