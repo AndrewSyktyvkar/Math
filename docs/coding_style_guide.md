@@ -17,7 +17,7 @@ function fun(int a, int b, int c) {
     if (condition)
         echo "Warning this is a long printk with " .
         	"3 parameters a: %u b: %u " .
-                "c: %u \n", a, b, c);
+                "c: %u \n", a, b, c;
     else
         next_statement;
 }
@@ -35,7 +35,7 @@ if (expression) {
 }
 
 for ($i = ; statement; $++) {
-	stuff
+	stuff;
 }
 ```
 
