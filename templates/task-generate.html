@@ -1,0 +1,22 @@
+<?php 
+	
+	require_once($_SERVER['DOCUMENT_ROOT'] . '/math/config/system_inits.php');
+	
+	$query = "SELECT subcategory_id, subcategory_name from subcategories"; 
+		$result = $mysqli->query($query);
+		if (!$result) {
+			fprintf($stderr, "Error message: %s\n", $mysqli->error);
+			exit(1);
+		}
+ ?>
+ 
+<form action="handler.php">
+  <p><b>Выберите интересующие вас категории</b></p>
+  <?php foreach ($result as $task): ?>
+  <p>
+	  <input type="radio" name="answer" value="<?php echo $task['subcategory_id'] ?>">
+	  <?php echo $task['subcategory_name'] ?><Br>
+  </p>
+  <?php endforeach; ?>
+  <p><input type="submit"></p>
+ </form>
