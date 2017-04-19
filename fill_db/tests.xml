@@ -239,7 +239,7 @@
 	    <test_description> math (b) </test_description>
 	    <test_date> 10.04.2017  </test_date> 
 	    <test_rate> 0 </test_rate>
-	    <is_real> not real  </is_real> 
+	    <is_real> false  </is_real> 
     </test>
 
     <task>
@@ -253,7 +253,7 @@
         </task_text>         
 	    <task_rate> 0 </task_rate> 
 	    <subcategory_id> 1 </subcategory_id>
-        <is_real> real  </is_real>
+        <is_real> true  </is_real>
     </task>
 
     <solution>
@@ -285,7 +285,7 @@
         </task_text>         
 	    <task_rate> 0 </task_rate> 
 	    <subcategory_id> 2 </subcategory_id>
-        <is_real> real  </is_real>
+        <is_real> true  </is_real>
     </task>
 
     <solution>
@@ -315,7 +315,7 @@
         </task_text>         
 	    <task_rate> 0 </task_rate> 
 	    <subcategory_id> 4 </subcategory_id>
-        <is_real> not real  </is_real>
+        <is_real> false  </is_real>
     </task>
 
     <solution>
@@ -346,7 +346,7 @@
         </task_text>         
 	    <task_rate> 0 </task_rate> 
 	    <subcategory_id> 6 </subcategory_id>
-        <is_real> not real  </is_real>
+        <is_real> false  </is_real>
     </task>
 
     <solution>
@@ -382,7 +382,7 @@
         </task_text>         
 	    <task_rate> 0 </task_rate> 
 	    <subcategory_id> 7 </subcategory_id>
-        <is_real> not real  </is_real>
+        <is_real> false  </is_real>
     </task>
 
     <solution>
@@ -411,7 +411,7 @@
         </task_text>         
 	    <task_rate> 0 </task_rate> 
 	    <subcategory_id> 5 </subcategory_id>
-        <is_real> not real  </is_real>
+        <is_real> false  </is_real>
     </task>
 
     <solution>
@@ -445,7 +445,7 @@
         </task_text>         
 	    <task_rate> 0 </task_rate> 
 	    <subcategory_id> 3 </subcategory_id>
-        <is_real> not real  </is_real>
+        <is_real> false  </is_real>
     </task>
 
     <solution>
@@ -479,7 +479,7 @@
         </task_text>         
 	    <task_rate> 0 </task_rate> 
 	    <subcategory_id> 8 </subcategory_id>
-        <is_real> not real  </is_real>
+        <is_real> false  </is_real>
     </task>
 
     <solution>
@@ -520,7 +520,7 @@
         </task_text>         
 	    <task_rate> 0 </task_rate> 
 	    <subcategory_id> 9 </subcategory_id>
-        <is_real> not real  </is_real>
+        <is_real> false  </is_real>
     </task>
 
     <solution>
@@ -550,7 +550,7 @@
         </task_text>         
 	    <task_rate> 0 </task_rate> 
 	    <subcategory_id> 10 </subcategory_id>
-        <is_real> not real  </is_real>
+        <is_real> false  </is_real>
     </task>
 
     <solution>
@@ -600,7 +600,7 @@
         </task_text>         
 	    <task_rate> 0 </task_rate> 
 	    <subcategory_id> 12 </subcategory_id>
-        <is_real> not real  </is_real>
+        <is_real> false  </is_real>
     </task>
 
     <solution>
@@ -636,7 +636,7 @@
         </task_text>         
 	    <task_rate> 0 </task_rate> 
 	    <subcategory_id> 13 </subcategory_id>
-        <is_real> not real  </is_real>
+        <is_real> false  </is_real>
     </task>
 
     <solution>
@@ -674,7 +674,7 @@
         </task_text>         
 	    <task_rate> 0 </task_rate> 
 	    <subcategory_id> 15 </subcategory_id>
-        <is_real> not real  </is_real>
+        <is_real> false  </is_real>
     </task>
 
     <solution>
@@ -709,7 +709,7 @@
         </task_text>         
 	    <task_rate> 0 </task_rate> 
 	    <subcategory_id> 16 </subcategory_id>
-        <is_real> not real  </is_real>
+        <is_real> false  </is_real>
     </task>
 
     <solution>
@@ -750,7 +750,7 @@
         </task_text>         
 	    <task_rate> 0 </task_rate> 
 	    <subcategory_id> 18 </subcategory_id>
-        <is_real> not real  </is_real>
+        <is_real> false  </is_real>
     </task>
 
     <solution>
@@ -787,7 +787,7 @@
         </task_text>         
 	    <task_rate> 0 </task_rate> 
 	    <subcategory_id> 19 </subcategory_id>
-        <is_real> not real  </is_real>
+        <is_real> false  </is_real>
     </task>
 
     <solution>
@@ -821,7 +821,7 @@
         </task_text>         
 	    <task_rate> 0 </task_rate> 
 	    <subcategory_id> 20 </subcategory_id>
-        <is_real> not real  </is_real>
+        <is_real> false  </is_real>
     </task>
 
     <solution>
