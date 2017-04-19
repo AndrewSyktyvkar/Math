@@ -238,7 +238,6 @@
         <test_id> 10 </test_id>
 	    <test_description> math (b) </test_description>
 	    <test_date> 10.04.2017  </test_date> 
-        <test_description> text </test_description>
 	    <test_rate> 0 </test_rate>
 	    <is_real> not real  </is_real> 
     </test>
