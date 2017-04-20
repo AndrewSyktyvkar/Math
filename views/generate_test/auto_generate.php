@@ -71,7 +71,7 @@ for ($i = 0; $i < count($template); $i++) {
 		while($row = $resp->fetch_row())
 			$a[] = $row[0];
 
-		$task_id = $a[array_rand($a)] . ": ";	
+		$task_id = $a[array_rand($a)];	
 	}
 
 	# put information about relation into tasks_in_test table
