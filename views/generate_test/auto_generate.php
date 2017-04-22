@@ -61,8 +61,8 @@ for ($i = 0; $i < count($template); $i++) {
 		# if corresponding task isn't found, then set task_id to -1
 		# and notify user about error. 
 		printf("В базе данных не найдено ни одной
-			задачи из категории '%s'. Необходимо дополнить эту
-			категорию и исправить тест вручную", $str);
+			задачи из категории '%s'.<br>Необходимо дополнить эту
+			категорию и исправить тест вручную<br>", $str);
 		$task_id = -1;
 	}
 	else {
