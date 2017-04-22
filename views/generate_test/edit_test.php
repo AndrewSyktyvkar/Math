@@ -18,7 +18,7 @@ printf("<html>
 \t\t\tИдентификатор теста: %d<br>
 \t\t\t<input type=\"hidden\" name=\"test_id\" value=\"%d\">
 \t\t\t<p>Описание теста:
-\t\t\t<textarea name=\"test_description\"></textarea><br></p>\n",
+\t\t\t<input name=\"test_description\"></p>\n",
 $_POST["choose_test"], $_POST["choose_test"]);
 
 $query = sprintf("select task_id, task_number from tasks_in_tests
@@ -28,13 +28,13 @@ $task_nums= $db->query($query);
 $query = sprintf("select task_id from tasks order by task_id asc");
 $task_ids = $db->query($query);
 
-
 while($num = $task_nums->fetch_row()) {
 	printf("\t\t\t<p>Задача %d: <select size=\"1\" name=\"task_%d\">\n",
 		$num[1], $num[1]);
 
 	if ($num[0] == -1)
-		printf("\t\t\t\t<option selected disabled>Тест не выбран</option>\n");
+		printf("\t\t\t\t<option selected value=\"-1\">
+			Тест не выбран</option>\n");
 
 	$task_ids->data_seek(0);
 	while ($row = $task_ids->fetch_row())
