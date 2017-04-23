@@ -16,16 +16,16 @@ if (!($db->query("set names 'utf8'"))
 printf("<html>
 \t<body>
 \t\t<pre>
-Идентификатор теста: %d\n\n
+Идентификатор теста: %d\n
 Описание теста: %s\n\n", $_POST["test_id"], $_POST["test_description"]);
 
-$query = sprintf("select task_number from tasks_in_tests where (test_id = %d)",
-	$_POST["test_id"]);
+$query = sprintf("select task_number from tasks_in_tests
+	where (test_id = '%d')", $_POST["test_id"]);
 
 $task_numbers = $db->query($query);
 
 while (($num = $task_numbers->fetch_row())) {
-	$query = sprintf("select * from tasks where (task_id = %d)",
+	$query = sprintf("select * from tasks where (task_id = '%d')",
 		$_POST["task_" . $num[0]]);
 	
 	$task = $db->query($query);

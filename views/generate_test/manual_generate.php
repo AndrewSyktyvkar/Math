@@ -20,7 +20,7 @@ $resp = $db->query("select test_id, test_description, test_date from tests
 printf("<html>
 \t<body>
 \t\t<form action=\"edit_test.php\" method=\"post\">
-\t\t\t<select size=\"3\" name=\"choose_test\">\n");
+\t\t\t<select size=\"10\" name=\"choose_test\">\n");
 
 while ($row = $resp->fetch_row())
 	printf("\t\t\t\t<option value=\"%d\">%d | %s | %s</option>\n",
