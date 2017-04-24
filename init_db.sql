@@ -74,9 +74,17 @@ create table solutions (
 	task_id int
 );
 	
-create table comments (
+create table comments_to_tasks (
 	comment_id int PRIMARY KEY AUTO_INCREMENT,
-	comment_to text,
+	task_id int,
+	comment_text text,
+	comment_date date,
+	comment_author int
+);
+
+create table comments_to_tests (
+	comment_id int PRIMARY KEY AUTO_INCREMENT,
+	test_id int,
 	comment_text text,
 	comment_date date,
 	comment_author int
