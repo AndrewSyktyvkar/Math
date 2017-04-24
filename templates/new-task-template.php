@@ -1,4 +1,4 @@
-<div class="input-group">
+<div class="form-group">
 	<div class="dropdown">
 		<button class="btn btn-default dropdown-toggle" type="button" id="subject-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
 			<span id="current-subject">Выберите предмет</span>
@@ -40,14 +40,61 @@
 	</div>
 
 	<div class="checkbox">
-		<label><input type="checkbox" value="">Из реального теста</label>
+		<label><input type="checkbox" id="is_real" value="">Из реального теста</label>
 	</div>
+	
+	<label for="task_name">Название задания:</label>
+    <input type="text" class="form-control" id="task_name">
+	<label for="task">Текст задания:</label>
+    <textarea class="form-control" rows="5" id="task"></textarea>
+    <button class="btn btn-success" onclick="save_task()">Сохранить</button>
+    
 </div>
 
 <script>
+	
 	var curr_subject_id = -1; 
 	var curr_category_id = -1;
 	var curr_subcategory_id = -1;
+	
+	function save_task() {
+		var err = "";
+		
+		if (curr_subject_id == -1)
+			err += "Выберите предмет. ";
+		if (curr_category_id == -1)
+			err += "Выберите категорию. ";
+		if (curr_subcategory_id == -1)
+			err += "Выберите подкатегорию. ";
+			
+		
+		var task_name = document.getElementById("task_name").value.trim();
+		if (task_name == "")
+			err += "Введите название задания. ";		
+		
+		var task_text = document.getElementById("task").value.trim();
+		if (task_text == "")
+			err += "Введите текст задания. ";
+		
+		var is_real = document.getElementById("is_real").checked;
+		
+		if (err == "") {
+			$.post("/math/views/new-task/add-task.php", { subject_id: curr_subject_id, 
+				category_id: curr_category_id, subcategory_id: curr_subcategory_id, 
+				task_text: task_text, is_real: is_real, task_name: task_name}, 
+				function(data) {
+					if (data == "ERR")
+						alert('Произошла ошибка');
+					else
+						alert('OK');
+					
+				});
+		} else 
+			alert(err);
+		
+	}
+	
+	
 	function change_subject(subj, id) {
 		if (id != curr_subject_id) {
 			var curr_category = document.getElementById('current-category');
