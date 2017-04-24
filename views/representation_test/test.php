@@ -11,6 +11,16 @@
 	<script src="/math/scripts/jquery-3.2.0.min.js"></script>
 	<script src="/math/stylesheets/bootstrap/js/bootstrap.min.js"></script>
 	
+	<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+			extensions: ["tex2jax.js"],
+			jax: ["input/TeX","output/HTML-CSS"],
+			tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
+		});
+	</script>
+
+	<script type="text/javascript" src="/math/scripts/MathJax/MathJax.js"></script>
+	
 	</head>
 	<body>
 		<?php 
