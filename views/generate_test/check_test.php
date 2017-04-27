@@ -13,6 +13,7 @@ if (!($db->query("set names 'utf8'"))
 	printf("Невозможно установить кодировку");
 	exit(1);
 }
+
 printf("<html>
 \t<body>
 \t\t<pre>
@@ -32,7 +33,7 @@ while (($num = $task_numbers->fetch_row())) {
 	$task = $task->fetch_row();
 
 	printf("Задача %d:\n", $num[0]);
-	if ($_POST["task_" . $num[0]] == -1) {
+	if (!($task)) {
 		printf("	Задача не выбрана.\n");
 		$has_error = TRUE;
 		continue;
@@ -53,8 +54,9 @@ printf("\t\t</pre>\n");
 
 printf("\t\t<form action=\"apply_test.php\" method=\"post\">
 \t\t\t<input type=\"hidden\" name=\"test_id\" value=\"%d\">
-\t\t\t<input type=\"hidden\" name=\"test_description\" value=\"%s\">\n",
-$_POST["test_id"], $_POST["test_description"]);
+\t\t\t<input type=\"hidden\" name=\"test_description\" value=\"%s\">,
+\t\t\t<input type=\"hidden\" name=\"test_date\" value=\"%s\">\n",
+$_POST["test_id"], $_POST["test_description"], date("Y-m-d"));
 
 $task_numbers->data_seek(0);
 while (($num = $task_numbers->fetch_row()))

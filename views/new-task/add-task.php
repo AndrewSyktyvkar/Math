@@ -8,8 +8,9 @@
 	$task_name =  $_POST['task_name'];
 	
 	
+	$task_text = str_replace("\\", "\\\\", $task_text);
 	$query = sprintf("INSERT INTO tasks VALUES(0, '%s', '%s', 0, %d, %b)", $task_name, $task_text, $subcategory_id, $is_real);
-	if (!$mysqli->query($query)) {
+	if (!$mysqli->query($query)) { 
 		echo "ERR";
 		fprintf($stderr, "Error message: %s\n", $mysqli->error);
 		exit(1);
