@@ -32,27 +32,26 @@
 		
 		if ($row['comment_id']!=null) $reg=1;	
 	?>	  
-
-		<table align="center" >
-			<tr>
-				<th align="left" style="font-size: 15pt; text-decoration: underline;"><?php echo $row['comment_author']; ?></th>
-			</tr>
-			<tr>
-				<td cellpadding="15px"><?php echo $row['comment_text']; ?></td>
-			</tr>
-			<tr>
-				<td align="left" style="font-size: 8pt;" ><i><?php echo $row['comment_date']; ?></i></td>
-			</tr>
-			<tr>
-				<td align="left">-----------------------------------------------------------------------------------</td>
-			</tr>
-		</table>
+			<div class="panel panel-primary">	
+				
+					<div class="panel-heading">
+						<div class="row">
+							<div class="col-lg-1">
+								<?php echo $row['comment_author']; ?>
+							</div>
+							<div class="col-lg-offset-9 col-lg-1">
+								<?php echo $row['comment_date']; ?>
+							</div>
+						</div>						
+					</div>
+				<?php echo $row['comment_text']; ?>
+			</div>
 
 	<?php } if ($reg==0) { 
 		echo '<p align="center"> В данный момент комментариев нет, но вы можете быть первым. </p>';
 	} ?>
 
-	<div align="center">
+	<div>
 	<?php  
 		if ($page>=1) {
 			echo '<a href="' . $_SERVER['SCRIPT_NAME'] . '?page=1"><<</a> &nbsp; ';

@@ -43,6 +43,13 @@
 								require_once($_SERVER['DOCUMENT_ROOT'] . '/math/views/representation_test/tasks_representation.php');
 							?>
 						</div>
+						<div class="panel-footer clearfix">
+							<div class="pull-center">
+								<?php
+									require_once($_SERVER['DOCUMENT_ROOT'] . '/math/Comments/test_to_test.php');
+								?>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="col-lg-2">

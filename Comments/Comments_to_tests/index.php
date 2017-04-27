@@ -3,10 +3,10 @@
 	<meta charset="utf-8">
 
 	<?php if (isset($_POST['text']) && empty($_POST['text'])){?>
-		<meta http-equiv="refresh" content="0; URL=test_to_test.php"> <?php //Название шаблона ?>
+		<meta http-equiv="refresh" content="0; URL=/math/views/representation_test/test.php"> <?php //Название шаблона ?>
 	<?php }?>
 
-	<H2 align="center">Комментарии</H2>
+	<H2 align="left">Комментарии</H2>
 	
 	<?php
 		include ("bd.php");	

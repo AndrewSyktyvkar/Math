@@ -1,5 +1,6 @@
-<?
 
+<?
+require_once($_SERVER['DOCUMENT_ROOT'] . '/math/config/system_inits.php');
 # Functions returns associated arrays from DB
 
 # Input datatype - date
