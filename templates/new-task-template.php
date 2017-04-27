@@ -1,4 +1,4 @@
-<div class="form-group">
+<div class="form-group" onload="clean_controls()">
 	<div class="dropdown">
 		<button class="btn btn-default dropdown-toggle" type="button" id="subject-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
 			<span id="current-subject">Выберите предмет</span>
@@ -57,6 +57,23 @@
 	var curr_category_id = -1;
 	var curr_subcategory_id = -1;
 	
+	window.onload = clean_controls;
+	
+	function clean_controls() {
+		curr_subject_id = -1; 
+		curr_category_id = -1;
+		curr_subcategory_id = -1;
+		document.getElementById("task").value = "";
+		document.getElementById("task_name").value = "";
+		
+		document.getElementById('current-subject').innerHTML = "Выберите предмет"
+		document.getElementById('current-category').innerHTML = "Выберите категорию"
+		document.getElementById('current-subcategory').innerHTML = "Выберите подкатегорию";
+		document.getElementById('categories-list').innerHTML = "";
+		document.getElementById('subcategories-list').innerHTML = "";
+		document.getElementById("is_real").checked = false;		
+	}
+	
 	function save_task() {
 		var err = "";
 		
@@ -85,8 +102,10 @@
 				function(data) {
 					if (data == "ERR")
 						alert('Произошла ошибка');
-					else
+					else {
 						alert('OK');
+						clean_controls();
+					}
 					
 				});
 		} else 
