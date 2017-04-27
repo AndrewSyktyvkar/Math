@@ -12,13 +12,20 @@ if (!($db->query("set names 'utf8'"))
 	exit(1);
 }
 
-$query = sprintf("update tests set test_description='%s' where test_id='%d'",
-	$_POST["test_description"], $_POST["test_id"]);
-$resp = $db->query($query);
+$query = sprintf("update tests set test_description='%s',
+	test_date='%s' where test_id='%d'",
+	$_POST["test_description"], $_POST["test_date"], $_POST["test_id"]);
+if (!($resp = $db->query($query))) {
+	printf("Не получилось обновить запись в базе данных.<br>");
+	exit(1);
+}
 
 $query = sprintf("select task_number, task_id from tasks_in_tests
 	where (test_id = '%d')", $_POST["test_id"]);
-$resp = $db->query($query);
+if (!($resp = $db->query($query))) {
+	printf("Невозможно извлечь данные из базы данных.<br>");
+	exit(1);
+}
 
 while (($row = $resp->fetch_row())) {
 	$query = sprintf("update tasks_in_tests set task_id='%d'

@@ -27,14 +27,26 @@ $task_nums= $db->query($query);
 
 $query = sprintf("select task_id from tasks order by task_id asc");
 $task_ids = $db->query($query);
-
 while($num = $task_nums->fetch_row()) {
+	$query = sprintf("select tasks.task_id, subcategories.category_id from
+		(tasks inner join subcategories
+		on (tasks.subcategory_id = subcategories.subcategory_id))
+		where (tasks.task_id = '%d')", $num[0]);
+	$category_id = $db->query($query);
+	$category_id = $category_id->fetch_row();
+	$category_id = $category_id[1];
+
 	printf("\t\t\t<p>Задача %d: <select size=\"1\" name=\"task_%d\">\n",
 		$num[1], $num[1]);
 
-	if ($num[0] == -1)
-		printf("\t\t\t\t<option selected value=\"-1\">
-			Тест не выбран</option>\n");
+	$query = sprintf("select tasks.task_id, subcategories.category_id from
+		(tasks inner join subcategories
+		on (tasks.subcategory_id = subcategories.subcategory_id))
+		where (subcategories.category_id = '%d')", $category_id);
+	if (!($task_ids = $db->query($query))) {
+		printf("Ошибка при выполнении запроса.<br>");
+		exit(1);
+	}
 
 	$task_ids->data_seek(0);
 	while ($row = $task_ids->fetch_row())
